@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<!-- your webpage info goes here -->
+
+    <title>Healthcare IoT</title>
+	
+	<meta name="author" content="your name" />
+	<meta name="description" content="" />
+
+<!-- you should always add your stylesheet (css) in the head tag so that it starts loading before the page html is being displayed -->	
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	
+</head>
+<body>
+
+<!-- webpage content goes here in the body -->
+
+	<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">Healthcare IoT</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="/ECG">ECG</a></li>
+				<li><a href="/EMG">EMG</a></li>
+			</ul>	
+		</div>
+		<div id="content">
+			<h2>About this demo</h2>
+			<p>
+				This demonstration plots the ECG and EMG graph using the CSV files stored on Google Cloud Storage. File in Google Cloud are stored directly from local directory using the batch script that runs every 1 minute. To render the graph plotly.js API library is used.
+			</p>
+		
+		</div>
+		</div>
+</body>
+</html>
